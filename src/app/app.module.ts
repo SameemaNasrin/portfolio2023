@@ -7,6 +7,10 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { AboutComponent } from './Components/about/about.component';
 import { HomeComponent } from './Components/home/home.component';
 import { ProjectsComponent } from './Components/projects/projects.component';
+import { MaterialModule } from './material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppConfigs } from './configs/AppConfigs';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -18,9 +22,12 @@ import { ProjectsComponent } from './Components/projects/projects.component';
     ProjectsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    CommonModule
   ],
-  providers: [],
+  providers: [AppConfigs],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,7 +1,11 @@
-<div class="nav-bar">
-    <span>logo</span>
-    <span>_hello</span>
-    <span>_projects</span>
-    <span>_about-me</span>
-    <span>Download Resume</span>
-</div>
+<mat-toolbar>
+  <span>
+    <img src="../../../assets/Logo.svg" alt="logo" id="logo">
+  </span>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/" class="nav-link hello">_hello</a>
+  <a mat-button routerLink="/about" class="nav-link prokect">_projects</a>
+  <a mat-button routerLink="/contact" class="nav-link about-me">_about-me</a>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/contact" class="resume download-link">Download Resume</a>
+</mat-toolbar>

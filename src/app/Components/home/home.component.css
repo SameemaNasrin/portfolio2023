@@ -1,0 +1,28 @@
+pre {
+    display: inline-block;
+    color: var(--tag-font-color);
+    margin-left: 5vw;
+    margin-top: 10vh;
+    line-height: 1.5rem;
+}
+
+code-body {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+#intro {
+    font-size: 2rem;
+    color: #E5E9F0;
+    opacity: 1;
+    line-height: 2rem;
+}
+
+#designation {
+    font-size: 1.5rem;
+    color: #4D5BCE;
+}
+
+.comments{
+    color: #689660;
+}

@@ -1,4 +1,14 @@
-div{
-    border: 2px solid red;
-    
+#background-gradient{
+    position: absolute;
+    right: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#hex-pattern{
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    max-width: 60vw;
+    max-height: 60vh;
 }

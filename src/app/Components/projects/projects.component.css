@@ -1,0 +1,128 @@
+.tech-stack {
+    color: #FEA55F;
+    background-color: rgba(254, 165, 95, 0.24);
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+.project-main {
+    display: flex;
+    margin-right: 5vw;
+}
+
+#projects {
+    margin-top: 10vh;
+    padding-bottom: 40px;
+    width: 50vw;
+    height: 80vh;
+    z-index: 999;
+}
+
+.all-projects{
+    height: 70vh;
+    overflow: auto;
+}
+
+/* Hide the scrollbar in webkit-based browsers (e.g., Google Chrome) */
+.all-projects::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+/* Hide the scrollbar in Mozilla Firefox */
+.all-projects {
+    scrollbar-width: none;
+}
+
+/* Hide the scrollbar in webkit-based browsers */
+.all-projects::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+
+#project-image {
+    width: 50vw;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+#headline {
+    border-bottom: 1.5px solid #FFFFFF;
+    margin-top: 5vh;
+    text-align: right;
+    padding: 2px 0px;
+    font-size: 16px;
+}
+
+#projectName {
+    padding-top: 20px;
+    margin-left: -30px;
+}
+
+#projectName h4 {
+    font-size: 18px;
+}
+
+#arrow-up,
+#projectName h4 {
+    display: flex;
+}
+
+#arrow-up {
+    padding-left: 12px;
+    transition: transform 0.3s ease;
+}
+
+#briefcase, #briefcase-hover {
+    padding-right: 12px;
+}
+
+.tech-stacks {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.project-card {
+    border-bottom: 1.5px dashed #4F4F4F;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+#project-desc {
+    font-size: 13px;
+}
+
+#hexagon{
+    margin-left: 2vw;
+    width: 45vw;
+    height: 78vh;
+}
+
+#projectName:hover{
+    color: #43D9AD;
+}
+
+#projectName:hover {
+    #briefcase {
+        display: none;
+    }
+    #briefcase-hover{
+        display: block;
+    }
+    #arrow-up{
+        transform: translate(2px, -2px);
+    }
+}
+
+#briefcase-hover{
+    display: none;
+}
+
+#project-link{
+    text-decoration: none;
+    color: #BDBDBD;
+}

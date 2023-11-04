@@ -1,0 +1,43 @@
+.mat-toolbar {
+    /* margin-bottom: 20px; */
+    font-size: 0.8rem;
+    border-bottom: 1px solid #1E1539;
+    height: fit-content;
+    background-color: var(--background-color);
+    position: fixed;
+}
+
+#logo {
+    max-height: 45px;
+    position: absolute;
+    top: 0;
+}
+
+.nav-link {
+    padding: 4vh 3vw;
+    border-radius: 0;
+    border-right: 1.5px solid #1E1539;
+    border-bottom: 2px solid transparent;
+}
+
+.hello,
+.resume {
+    border-left: 1.5px solid #1E1539;
+
+}
+
+.nav-link.hello, .nav-link.prokect, .nav-link.about-me, .resume.download-link {
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.resume {
+    padding: 4vh 2vw;
+    border-radius: 0;
+}
+
+.nav-link:hover {
+    background-image: linear-gradient(to top, rgb(254, 165, 95, 0.15), rgb(254, 165, 95, 0));
+    border-bottom: 2px solid orange;
+}

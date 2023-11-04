@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&display=swap');
+
+:root {
+    --border-color: #1E1539;
+    --font-color: #C5BAF2;
+    --active-font-color: #FFFFFF;
+    --tag-font-color: #607B96;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    /* background-image: url("assets/Background.svg"); */
+}
+
+body {
+    background-color: #070113;
+    color: white;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+}
+
+.spacer {
+    flex: 1;
+}

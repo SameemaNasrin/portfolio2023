@@ -1,0 +1,28 @@
+.nav-link {
+    padding: 2vh 3vw;
+    border-radius: 0;
+    border-left: 1.5px solid #1E1539;
+}
+
+
+mat-toolbar {
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8rem;
+    border-top: 1px solid #1E1539;
+    height: fit-content;
+    background-color: var(--background-color);
+}
+
+#copywrite {
+    border-right: 1.5px solid #1E1539;
+    padding: 2vh 3vw 2vh 1vw;
+    border-radius: 0;
+}
+
+#copywrite, .nav-link.git, .nav-link.leetcode, .nav-link.frontendMentor{
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 14px;
+}
