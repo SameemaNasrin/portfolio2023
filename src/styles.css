@@ -3,6 +3,8 @@
 
 :root {
     --border-color: #1E1539;
+    --nav-hover-background-color: rgba(197, 186, 242, 0.12);
+    --nav-hover-text-color: rgba(197, 186, 242, 1);
     --font-color: #C5BAF2;
     --active-font-color: #FFFFFF;
     --tag-font-color: #607B96;

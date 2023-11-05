@@ -1,12 +1,13 @@
 pre {
     display: inline-block;
     color: var(--tag-font-color);
-    margin-left: 5vw;
     margin-top: 10vh;
-    line-height: 1.5rem;
+    line-height: 2rem;
+    margin-left: 10vw;
+
 }
 
-code-body {
+.code-body {
     opacity: 0.5;
     font-size: 12px;
 }

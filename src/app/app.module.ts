@@ -11,6 +11,7 @@ import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppConfigs } from './configs/AppConfigs';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   providers: [AppConfigs],
   bootstrap: [AppComponent]

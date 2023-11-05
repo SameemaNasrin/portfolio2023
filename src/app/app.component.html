@@ -6,11 +6,13 @@
   <title>_Sameema_Nasrin</title>
 </head>
 <body>
-  <img src="../assets/Background.svg" alt="background-gradient" id="background-gradient">
-  <img src="../assets/hex_patttern.svg" alt="background-gradient" id="hex-pattern">
+  <div class="background-container">
+    <img src="../assets/Background.svg" alt="background-gradient" id="background-gradient">
+    <img src="../assets/hex_patttern.svg" alt="background-gradient" id="hex-pattern">
+  </div>
   
   <app-header></app-header>
-  <app-projects></app-projects>
+  <router-outlet></router-outlet>
   <app-footer></app-footer>
 </body>
 </html>

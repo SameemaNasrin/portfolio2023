@@ -18,4 +18,8 @@ export class ProjectsComponent {
     this.ProjectList = this.config.ProjectList;
     this.projectCount = this.ProjectList.length
   }
+
+  changeImage(projectImg:string):void {
+    document.getElementById('project-image-tag')?.setAttribute('src', projectImg);
+  }
 }

@@ -27,7 +27,7 @@
 }
 
 .nav-link.hello, .nav-link.prokect, .nav-link.about-me, .resume.download-link {
-    color: #FFFFFF;
+    color: var(--nav-hover-text-color);
     font-weight: lighter;
     font-size: 14px;
 }
@@ -37,7 +37,17 @@
     border-radius: 0;
 }
 
-.nav-link:hover {
+.resume:hover {
+    color: #FEA55F;
+}
+
+.active {
     background-image: linear-gradient(to top, rgb(254, 165, 95, 0.15), rgb(254, 165, 95, 0));
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #FEA55F;
+    color: var(--active-font-color) !important;
+}
+
+.nav-link:hover{
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-text-color);
 }

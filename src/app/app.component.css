@@ -8,7 +8,14 @@
 #hex-pattern{
     position: absolute;
     top: 15vh;
-    right: 5vw;
+    right: 20vw;
     max-width: 60vw;
     max-height: 60vh;
 }
+
+/* .background-container{
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    display: absolute;
+} */

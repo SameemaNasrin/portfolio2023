@@ -20,7 +20,15 @@
 
 .all-projects{
     height: 70vh;
-    overflow: auto;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+
+.project-card{
+    height: fit-content;
+    scroll-snap-align: start; 
+    scroll-snap-stop: always;
 }
 
 /* Hide the scrollbar in webkit-based browsers (e.g., Google Chrome) */
@@ -43,7 +51,7 @@
 
 
 
-#project-image {
+#project-image-tag {
     width: 50vw;
     height: 80vh;
     margin-top: 10vh;
@@ -94,6 +102,7 @@
 
 #project-desc {
     font-size: 13px;
+    /* text-align: justify; */
 }
 
 #hexagon{
@@ -126,3 +135,9 @@
     text-decoration: none;
     color: #BDBDBD;
 }
+
+/* #project-image {
+    position: absolute;
+    max-width: 50vw;
+    max-height: 40vh;
+} */

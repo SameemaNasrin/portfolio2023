@@ -1,0 +1,117 @@
+.about-me-main {
+    display: flex;
+    margin-right: 5vw;
+}
+
+#about-me-image {
+    width: 50vw;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+#hexagon{
+    margin-left: 2vw;
+    width: 45vw;
+    height: 78vh;
+}
+
+#about-me {
+    margin-top: 10vh;
+    padding-bottom: 40px;
+    width: 50vw;
+    height: 80vh;
+    z-index: 999;
+    overflow-y: scroll;
+}
+
+
+/* Hide the scrollbar in webkit-based browsers (e.g., Google Chrome) */
+#about-me::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+/* Hide the scrollbar in Mozilla Firefox */
+#about-me {
+    scrollbar-width: none;
+}
+
+/* Hide the scrollbar in webkit-based browsers */
+#about-me::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+#about-me-desc {
+    font-size: 12px;
+    border: 1px solid rgba(67, 217, 173, 0.2);
+    background-color: rgba(67, 217, 173, 0.1);
+    padding: 16px 32px;
+    text-align: justify;
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-top-right-radius: 8px;
+    border-end-start-radius: 8px;
+    color: #BDBDBD;
+}
+
+#experience, #education {
+    margin-left: 5vw;
+}
+
+#experience h4, #education h4{
+    display: flex;
+}
+#briefcase-hover, #graduation-cap {
+    padding-right: 12px;
+}
+
+#expn, #edu {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: fit-content;
+    margin-bottom: 24px;
+}
+
+#expn p, #edu p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#small-hex{
+    padding-right: 5px;
+    margin: 0;
+    height: fit-content;
+}
+
+/* #about-me-desc-container{
+    border: 2px solid red;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+#top-left-corner, #bottom-right-corner{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    color: transparent;
+    cursor: default;
+    pointer-events: none;
+}
+
+#top-left-corner{
+    border-top: 2px solid #43D9AD;
+    border-left: 2px solid #43D9AD;
+}
+
+#bottom-right-corner{
+    border-bottom: 2px solid #43D9AD;
+    border-right: 2px solid #43D9AD;
+    right: 0;
+    bottom: 0;
+} */

@@ -1,6 +1,7 @@
 <div class="project-main">
     <div id="project-image">
-        <img src="../../../assets/hexagon.svg" alt="hexagon" id="hexagon">
+        <img src="../../../assets/multi-step-form-img.svg" alt="projectImage" id="project-image-tag">
+        <!-- <img src="../../../assets/hexagon.svg" alt="hexagon" id="hexagon"> -->
     </div>
     <div id="projects">
         <div id="headline">
@@ -8,14 +9,15 @@
         </div>
         <div class="all-projects">
             <div class="projectList" *ngFor="let project of ProjectList">
-                <div class="project-card">
+                <div class="project-card" (mouseenter)="changeImage(project.img)">
                     <a [href]="project.link" id="project-link" target="_blank">
                         <div id="projectName">
                             <h4>
                                 <img src="../../../assets/briefcase.svg" alt="briefcase" id="briefcase">
                                 <img src="../../../assets/briefcase-hover.svg" alt="briefcase-hover" id="briefcase-hover">
                                 {{ project.name }}
-                                <img src="../../../assets/arrow-up.svg" alt="arrow-up" id="arrow-up"></h4>
+                                <img src="../../../assets/arrow-up.svg" alt="arrow-up" id="arrow-up">
+                            </h4>
                         </div>
                     </a>
                     <p id="project-desc">{{ project.desc }}</p>

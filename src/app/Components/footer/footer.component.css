@@ -2,6 +2,7 @@
     padding: 2vh 3vw;
     border-radius: 0;
     border-left: 1.5px solid #1E1539;
+    height: max-content;
 }
 
 
@@ -9,7 +10,7 @@ mat-toolbar {
     z-index: 100;
     position: fixed;
     bottom: 0;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     border-top: 1px solid #1E1539;
     height: fit-content;
     background-color: var(--background-color);
@@ -25,4 +26,12 @@ mat-toolbar {
     color: #FFFFFF;
     font-weight: lighter;
     font-size: 14px;
+}
+
+#copywrite:hover, .nav-link.git:hover, .nav-link.leetcode:hover, .nav-link.frontendMentor:hover{
+    color: #FEA55F;
+}
+
+#self-link {
+    font-weight: lighter;
 }
