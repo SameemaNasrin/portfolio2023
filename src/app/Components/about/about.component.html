@@ -1,7 +1,6 @@
 <div class="about-me-main">
     <div id="about-me-image">
-        <!-- <img src="../../../assets/multStepForm.png" alt="projectImage" id="about-me-image"> -->
-        <img src="../../../assets/hexagon.svg" alt="hexagon" id="hexagon">
+        <img src="../../../assets/project-hex.svg" alt="project-hex" id="project-hex">
     </div>
     <div id="about-me">
         <div id="about-me-desc-container">
@@ -15,25 +14,25 @@
             <!-- <span id="bottom-right-corner">hi
             </span> -->
         </div>
-        <div id="experience">
+        <div id="experience" (mouseleave)="setDefaultImage()">
             <h4>
                 <img src="../../../assets/briefcase-hover.svg" alt="briefcase-hover" id="briefcase-hover">
                 Experience
             </h4>
-            <div id="experience-list" *ngFor="let exp of experience">
-                <div id="expn">
+            <div id="experience-list" *ngFor="let exp of experience; let i = index">
+                <div id="expn" (mouseenter)="changeImage(i, 'exp')" (mouseleave)="defaultImage()" on>
                     <img src="../../../assets/small-hex.svg" alt="small-hex" id="small-hex">
                     <p>{{ exp }}</p>
                 </div>
             </div>
         </div>
-        <div id="education">
+        <div id="education" (mouseleave)="setDefaultImage()">
             <h4>
                 <img src="../../../assets/graduation-cap.svg" alt="graduation-cap" id="graduation-cap">
                 Education
             </h4>
-            <div id="education-list" *ngFor="let edu of education">
-                <div id="edu">
+            <div id="education-list" *ngFor="let edu of education; let i = index">
+                <div id="edu"  (mouseenter)="changeImage(i, 'edu')" (mouseleave)="defaultImage()">
                     <img src="../../../assets/small-hex.svg" alt="small-hex" id="small-hex">
                     <p>{{ edu }}</p>
                 </div>

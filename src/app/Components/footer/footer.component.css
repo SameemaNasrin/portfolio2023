@@ -18,20 +18,43 @@ mat-toolbar {
 
 #copywrite {
     border-right: 1.5px solid #1E1539;
-    padding: 2vh 3vw 2vh 1vw;
+    /* padding: 2vh 3vw 2vh 1vw; */
     border-radius: 0;
-}
-
-#copywrite, .nav-link.git, .nav-link.leetcode, .nav-link.frontendMentor{
     color: #FFFFFF;
     font-weight: lighter;
-    font-size: 14px;
 }
 
-#copywrite:hover, .nav-link.git:hover, .nav-link.leetcode:hover, .nav-link.frontendMentor:hover{
+#copywrite:hover,
+.nav-link.leetcode:hover,
+.nav-link.frontendMentor:hover {
     color: #FEA55F;
 }
 
 #self-link {
     font-weight: lighter;
 }
+
+
+#git-hover {
+    display: none;
+}
+
+
+#github {
+    display: block;
+}
+
+.nav-link:hover {
+    #git-hover {
+        display: block;
+    }
+
+    #github {
+        display: none;
+    }
+}
+
+/* #self-link, #copywrite{
+    display: block;
+    border: 2px solid red;
+} */

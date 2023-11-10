@@ -1,15 +1,14 @@
 <div class="project-main">
     <div id="project-image">
-        <img src="../../../assets/multi-step-form-img.svg" alt="projectImage" id="project-image-tag">
-        <!-- <img src="../../../assets/hexagon.svg" alt="hexagon" id="hexagon"> -->
+        <img src="../../../assets/project-hex.svg" alt="project-hex" id="project-hex">
     </div>
     <div id="projects">
         <div id="headline">
             <b>{{ projectCount }}</b> Projects
         </div>
-        <div class="all-projects">
+        <div class="all-projects" (mouseleave)="setDefaultImage()">
             <div class="projectList" *ngFor="let project of ProjectList">
-                <div class="project-card" (mouseenter)="changeImage(project.img)">
+                <div class="project-card" (mouseenter)="changeImage(project.img)" (mouseleave)="defaultImage()">
                     <a [href]="project.link" id="project-link" target="_blank">
                         <div id="projectName">
                             <h4>

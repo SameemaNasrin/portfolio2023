@@ -2,28 +2,30 @@ pre {
     display: inline-block;
     color: var(--tag-font-color);
     margin-top: 10vh;
-    line-height: 2rem;
     margin-left: 10vw;
 
 }
 
 .code-body {
     opacity: 0.5;
-    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
 }
 
 #intro {
-    font-size: 2rem;
+    font-size: 5rem;
     color: #E5E9F0;
     opacity: 1;
-    line-height: 2rem;
+    line-height: 4rem;
 }
 
 #designation {
-    font-size: 1.5rem;
-    color: #4D5BCE;
+    font-size: 2.5rem;
+    color: #C983FF;
 }
 
 .comments{
     color: #689660;
+    opacity: 0.85;
+    line-height: 1rem;
 }

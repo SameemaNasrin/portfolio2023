@@ -8,11 +8,33 @@
     height: 80vh;
     margin-top: 10vh;
 }
-
+/* 
 #hexagon{
     margin-left: 2vw;
     width: 45vw;
     height: 78vh;
+    border: 2px solid red;
+    background-image: url('../../../assets/profilePic2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+#project-hex {
+    background-image: url('../../../assets/profilePic1.jpg');
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    /* background-position: center 200%;    */
+    transition: background-position 0.5s ease;
+    background-position: center center;
+}
+
+#project-hex {
+    height: 470px;
+    width: 50vw;
+    /* position: absolute; */
+    z-index: 98;
+    display: flex;
+
 }
 
 #about-me {
