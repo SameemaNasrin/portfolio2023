@@ -4,41 +4,37 @@
     </div>
     <div id="about-me">
         <div id="about-me-desc-container">
+            <!-- <span id="top-left-corner">hi
+            </span> -->
             <p id="about-me-desc">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit ab suscipit
                 molestias excepturi reiciendis, laboriosam accusantium rem ut minus, eius, veritatis debitis omnis quaerat
                 accusamus nobis animi recusandae similique vitae.
             </p>
+            <!-- <span id="bottom-right-corner">hi
+            </span> -->
         </div>
         <div id="experience" (mouseleave)="setDefaultImage()">
-            <h6>
-                &lt;  WORK EXPERIENCE  &gt;
-            </h6>
+            <h4>
+                <img src="../../../assets/briefcase-hover.svg" alt="briefcase-hover" id="briefcase-hover">
+                Experience
+            </h4>
             <div id="experience-list" *ngFor="let exp of experience; let i = index">
-                <div id="expn">
-                    <div class="edu-exp-title-duration">
-                        <p>{{ exp.title }}</p>
-                        <p>{{ exp.duration }}</p>
-                    </div>
-                    <div class="office-college">
-                        <p>{{ exp.company }}</p>
-                    </div>
+                <div id="expn" (mouseenter)="changeImage(i, 'exp')" (mouseleave)="defaultImage()" on>
+                    <img src="../../../assets/small-hex.svg" alt="small-hex" id="small-hex">
+                    <p>{{ exp }}</p>
                 </div>
             </div>
         </div>
         <div id="education" (mouseleave)="setDefaultImage()">
-            <h6>
-                &lt; EDUCATION &gt;
-            </h6>
+            <h4>
+                <img src="../../../assets/graduation-cap.svg" alt="graduation-cap" id="graduation-cap">
+                Education
+            </h4>
             <div id="education-list" *ngFor="let edu of education; let i = index">
-                <div id="edu">
-                    <div class="edu-exp-title-duration">
-                        <p>{{ edu.course }} </p>
-                        <p>{{ edu.duration }}</p>
-                    </div>
-                    <div class="office-college">
-                        <p>{{ edu.college }}</p>
-                    </div>
+                <div id="edu"  (mouseenter)="changeImage(i, 'edu')" (mouseleave)="defaultImage()">
+                    <img src="../../../assets/small-hex.svg" alt="small-hex" id="small-hex">
+                    <p>{{ edu }}</p>
                 </div>
             </div>
         </div>

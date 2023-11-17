@@ -16,16 +16,27 @@ export class AppConfigs {
     }
   ];
 
-  ExperienceList: any = [
-    'Senior Software Developer in Capgemini', 'Software Developer in Capgemini'
+  ExperienceList: any = [{
+      title: 'Senior Software Engineer',
+      company: 'Capgemini',
+      duration: '2021-Present',
+    }//,
+    // {
+    //   title: 'Software Engineer',
+    //   company: 'Capgemini',
+    //   duration: '2021-2023'
+    // } 
   ]
 
   ExperienceImgList: any = [
     '../../../assets/multi-step-form.svg', '../../../assets/rock-paper-scissors.svg'
   ]
 
-  EducationList: any = [
-    'B Tech from GNIT', 'Higher Secondary from KVS Burdwan', 'Secondary from KVS Burdwan'
+  EducationList: any = [{
+      course: 'B Tech from GNIT',
+      duration: '2017-2021',
+      college: 'Gurunanak Institue of technology, Kolkata, WB'
+    }
   ]
 
   EducationImgList: any = [
