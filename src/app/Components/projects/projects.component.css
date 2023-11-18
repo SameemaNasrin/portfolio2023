@@ -150,7 +150,7 @@
 
 
 #project-hex {
-    background-image: url('../../../assets/projectDefault.svg');
+    background-image: url('assets/projectDefault.svg');
     background-repeat: no-repeat;
     background-size: 30vw;
     background-position: center center;

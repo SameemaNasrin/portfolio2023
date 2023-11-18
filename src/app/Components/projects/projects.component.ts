@@ -42,7 +42,7 @@ export class ProjectsComponent {
     var element = document.getElementById('project-hex');
     if (element) {
       setTimeout((element: HTMLElement) => {
-        element.style.backgroundImage = "url('../../../assets/projectDefault.svg')";
+        element.style.backgroundImage = "url('assets/projectDefault.svg')";
         element.style.backgroundPosition = "center center";
       }, 50, element);
     } else {

@@ -20,7 +20,7 @@
 } */
 
 #project-hex {
-    background-image: url('../../../assets/profilePic1.jpg');
+    background-image: url('assets/profilePic1.jpg');
     background-repeat: no-repeat;
     background-size: 30vw;
     /* background-position: center 200%;    */
