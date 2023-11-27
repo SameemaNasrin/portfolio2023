@@ -1,7 +1,14 @@
+div {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+}
+
 pre {
     display: inline-block;
     color: var(--tag-font-color);
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     margin-left: 10vw;
 
 }
