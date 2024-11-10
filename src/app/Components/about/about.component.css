@@ -33,9 +33,9 @@ h6{
 }
 
 #project-hex {
-    background-image: url('../.../../../../assets/profilePic1.jpg');
+    background-image: url('../.../../../../assets/profilePic3.jpg');
     background-repeat: no-repeat;
-    background-size: 30vw;
+    background-size: 35vw;
     transition: background-position 0.5s ease;
     background-position: center center;
 }
